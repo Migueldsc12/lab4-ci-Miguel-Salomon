@@ -6,15 +6,15 @@ Los números negativos no son aceptados
 """
 
 def fibonacci(position):
-  <<<<<<< fix-test
+  
   if(position == 0):
      return 0
   if(position < 0):
-  =======
+ 
   if(position == 0):
     return 0
   if(position < 0):
-  >>>>>>> main
+ 
     raise ValueError("Invalid input")
   if(position == 1 or position == 2):
     return 1
